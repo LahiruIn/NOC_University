@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+  crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!--Navigation-->
+  <nav>
+    <img src="NOC.png" alt="">
+    <div class="navigation">
+      <ul>
+        <i id="menu-close" class="fas fa-times"></i>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="blog.html">Blog</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <img id="menu-btn" src="menu.png" alt="">
+    </div>
+  </nav>
+
+  <!--Home-->
+
+  <section id="about-home">
+    <h2>Blog</h2>
+  </section>
+
+  <section id="blog-container">
+    <div class="blogs">
+      <div class="post">
+        <img src="blog/bl1.jpg" alt="">
+        <h3>How to improve web development skills</h3>
+        <p>Web development is a dynamic and ever-evolving field, and staying up to date with the latest 
+          trends and technologies is crucial for success. Whether you're a beginner or an experienced developer, 
+          there are always ways to improve your skills and become a better web developer.</p>
+          <a href="post.html">Read More</a>
+      </div>
+
+      <div class="post">
+        <img src="blog/blog2.jpg" alt="">
+        <h3>How to start mobile apps development </h3>
+        <p>Getting started with mobile app development can be a rewarding journey, whether you want to 
+          build apps for iOS, Android, or both. Here are the steps to help you begin your mobile 
+          development adventure:</p>
+          <a href="#">Read More</a>
+      </div>
+
+      <div class="post">
+        <img src="blog/bl3.png" alt="">
+        <h3>Why learn node js</h3>
+        <p>Learning Node.js can be a valuable and strategic decision for developers, as it offers 
+          several advantages and opportunities. Here are some compelling reasons to learn Node.js. 
+          It's a skill that aligns well with the demands of the modern web and application development landscape.</p>
+          <a href="#">Read More</a>
+      </div>
+
+      <div class="post">
+        <img src="blog/bl4.jpg" alt="">
+        <h3>How connect sql server</h3>
+        <p>To connect to a SQL Server database, you typically use a programming language or tool that provides 
+          support for SQL Server database connectivity. Be sure to replace the placeholders in the code examples 
+          with your own database information.</p>
+          <a href="#">Read More</a>
+      </div>
+    </div>
+
+    <div class="cate">
+    <h2>Categories</h2>
+    <hr>
+    <a href="#">Web Development</a>
+    <hr>
+    <a href="#">Web Design</a>
+    <hr>
+    <a href="#">Mobile App Development</a>
+    <hr>
+    <a href="#">Backend Development</a>
+    <hr>
+    <a href="#">C++ Programming</a>
+    <hr>
+    <a href="#">Python Programming</a>
+    <hr>
+    <a href="#">Java Programming</a>
+    <hr>
+  </div>
+  </section>
+
+    <!--footer-->
+    <footer> <div class="footer-col">
+      <h3>Top Products</h3>
+       <li>Manager Reput</li>
+       <li>Power Tools</li>
+       <li>Managed Website</li>
+       <li>Marketing Serivce</li>
+    </div>
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <li>Power Tools</li>
+      <li>Jobs</li>
+      <li>Marketing Service</li>
+    </div>
+    <div class="footer-col">
+      <h3>Features</h3>
+       <li>Manager Reput</li>
+       <li>Managed Website</li>
+       <li>Jobs</li>
+       <li>Manager Reput</li>
+    </div>
+    <div class="footer-col">
+      <h3>Resources</h3>
+       <li>Manager Reput</li>
+       <li>Power Tools</li>
+       <li>Managed Website</li>
+       <li>Marketing Serivce</li>
+    </div>
+    <div class="footer-col">
+      <h3>Newscetter</h3>
+      <p>You can trust us. We only send promo offers, </p>
+      <div class="subscribe">
+        <input type="text" placeholder="You Email Address">
+        <a class="green" href="#">SUBSCRIBE</a>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>Copyright © 2023 Lahiru Induwara. All right reserved.</p>
+      <div class="pro-links">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-github-square"></i>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    $('#menu-btn').click(function(){
+      $('nav .navigation ul').addClass('active')
+    });
+    $('#menu-close').click(function(){
+      $('nav .navigation ul').removeClass('active')
+    });
+  </script>
+    
+</body>
+
+</html>

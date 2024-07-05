@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+  crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!--Navigation-->
+  <nav>
+    <img src="NOC.png" alt="">
+    <div class="navigation">
+      <ul>
+        <i id="menu-close" class="fas fa-times"></i>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+      <img id="menu-btn" src="menu.png" alt="">
+    </div>
+  </nav>
+
+  <!--Home-->
+
+  <section id="about-home">
+    <h2>Contact Us</h2>
+  </section>
+
+  <section id="contact">
+    <div class="getin">
+      <h2>Get in touch</h2>
+      <p>Looking for help? Fill the form and start a new adventure</p>
+
+    <div class="getin-details">
+    <h3>Head Office</h3>
+    <div>
+      <i class="fas fa-home get"></i>
+      <p>No 5, Church Road, Main Street, London 11200</p>
+    </div>
+    <h3>Phone</h3>
+    <div>
+      <i class="fas fa-phone-alt get"></i>
+      <p>
+        (+44) 479 268 912 <br> (+66) 454 976 410</p>
+    </div>
+    <h3>Support</h3>
+    <div>
+      <i class="fas fa-envelope get"></i>
+      <p>
+        nocuniversity@support.com <br> international@nocuniversity.com</p>
+    </div>
+    <h3>Follow Us</h3>
+    <div class="pro-links">
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-instagram-square"></i>
+    <i class="fab fa-linkedin"></i>
+    <i class="fab fa-youtube"></i>
+    <i class="fab fa-twitter"></i>
+    </div>
+  </div>
+</div>
+  <div class="form">
+  <h4>Let's Connect</h4>
+  <p>Whether you have questions about university courses, future careers, entry requirements, 
+    how to apply or how to get started, contact us here and the relevant person will help 
+    you find the answers you need.</p>
+    <div class="form-row">
+      <input type="text" placeholder="Your Name">
+      <input type="text" placeholder="Email">
+    </div>
+    <div class="form-col">
+      <input type="text" placeholder="Subject">
+    </div>
+    <div class="form-col">
+      <textarea name="" id="" cols="30" rows="8" placeholder="How can we help?"></textarea>
+    </div>
+    <div class="form-col">
+    <button>Send Message</button>
+    </div>
+  </div>
+  </section>
+
+  <section id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.18237072593!2d-0.10159865000003898!3d51.52864165000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sca!4v1698672693023!5m2!1sen!2sca" 
+    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+    <!--footer-->
+    <footer> <div class="footer-col">
+      <h3>Top Products</h3>
+       <li>Manager Reput</li>
+       <li>Power Tools</li>
+       <li>Managed Website</li>
+       <li>Marketing Serivce</li>
+    </div>
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <li>Power Tools</li>
+      <li>Jobs</li>
+      <li>Marketing Service</li>
+    </div>
+    <div class="footer-col">
+      <h3>Features</h3>
+       <li>Manager Reput</li>
+       <li>Managed Website</li>
+       <li>Jobs</li>
+       <li>Manager Reput</li>
+    </div>
+    <div class="footer-col">
+      <h3>Resources</h3>
+       <li>Manager Reput</li>
+       <li>Power Tools</li>
+       <li>Managed Website</li>
+       <li>Marketing Serivce</li>
+    </div>
+    <div class="footer-col">
+      <h3>Newscetter</h3>
+      <p>You can trust us. We only send promo offers, </p>
+      <div class="subscribe">
+        <input type="text" placeholder="You Email Address">
+        <a class="green" href="#">SUBSCRIBE</a>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>Copyright © 2023 Lahiru Induwara. All right reserved.</p>
+      <div class="pro-links">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-github-square"></i>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    $('#menu-btn').click(function(){
+      $('nav .navigation ul').addClass('active')
+    });
+    $('#menu-close').click(function(){
+      $('nav .navigation ul').removeClass('active')
+    });
+  </script>
+    
+</body>
+
+</html>
